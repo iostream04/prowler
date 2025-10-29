@@ -7,6 +7,11 @@ All notable changes to the **Prowler API** are documented in this file.
 ### Added
 - Support for configuring multiple LLM providers [(#8772)](https://github.com/prowler-cloud/prowler/pull/8772)
 
+## [1.14.1] (Prowler 5.13.1)
+
+### Fixed
+- Update unique constraint for `Provider` model to exclude soft-deleted entries, resolving duplicate errors when re-deleting providers.
+
 ## [1.14.0] (Prowler 5.13.0)
 
 ### Added
